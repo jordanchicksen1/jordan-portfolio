@@ -108,6 +108,65 @@ function App() {
 
           </div>
         </section>
+
+                {/* PLAY */}
+        <section id="play" className="play-section">
+          <div className="play-content">
+            <p className="section-label">A LITTLE SOMETHING TO PLAY</p>
+
+            <h2>A small game, built for fun.</h2>
+
+            <a href="#play-game" className="play-button">
+              Play now →
+            </a>
+          </div>
+
+          <div className="play-image">
+            <span>GAME IMAGE</span>
+          </div>
+        </section>
+
+                {/* MORE THAN JUST CODE */}
+        <section id="about" className="more-section">
+          <div className="section-heading">
+            <p className="section-label">MORE THAN JUST CODE</p>
+            <h2>What I can bring to a project</h2>
+          </div>
+
+          <div className="more-grid">
+            <article className="more-card">
+              <div className="more-icon">✎</div>
+              <h3>Design</h3>
+              <p>Visual design, UI/UX and creative problem-solving.</p>
+            </article>
+
+            <article className="more-card">
+              <div className="more-icon">∞</div>
+              <h3>Education</h3>
+              <p>Workshops, events and creating opportunities for others to learn.</p>
+            </article>
+
+            <article className="more-card">
+              <div className="more-icon">⇄</div>
+              <h3>Project Management</h3>
+              <p>Planning, coordination and making sure that creative projects cross the finish line.</p>
+            </article>
+
+            <article className="more-card">
+              <div className="more-icon">∴</div>
+              <h3>Philosophy</h3>
+              <p>Critical thinking and different perspectives on technology and creativity.</p>
+            </article>
+          </div>
+
+          <div className="more-statement">
+            <p>
+              My work sits at the intersection of technology, design and
+              creative problem-solving.
+            </p>
+          </div>
+        </section>
+
             </main>
 
       <button
