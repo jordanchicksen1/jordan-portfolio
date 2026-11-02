@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -168,6 +169,8 @@ function App() {
         </section>
 
             </main>
+
+            <Footer />
 
       <button
   className={`back-to-top ${showBackToTop ? 'show' : ''}`}
