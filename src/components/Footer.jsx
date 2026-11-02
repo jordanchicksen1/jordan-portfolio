@@ -7,7 +7,7 @@ function Footer() {
   LinkedIn
 </a>
         <a href="https://github.com/jordanchicksen1" target="_blank" rel="noopener noreferrer">
-  GitHub :o
+  GitHub 
 </a>
       </div>
 
